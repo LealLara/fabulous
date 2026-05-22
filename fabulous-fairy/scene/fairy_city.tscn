@@ -1,0 +1,17 @@
+[gd_scene format=3 uid="uid://dbbox8y16n5e3"]
+
+[ext_resource type="PackedScene" uid="uid://c5a3nie4uwq2i" path="res://entities/player.tscn" id="1_uhyyb"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_uhyyb"]
+size = Vector2(409, 6)
+
+[node name="fairy-city" type="Node2D" unique_id=135462892]
+
+[node name="player" parent="." unique_id=1901282686 instance=ExtResource("1_uhyyb")]
+position = Vector2(41, 112)
+
+[node name="Terrain" type="StaticBody2D" parent="." unique_id=1667928031]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Terrain" unique_id=1153997226]
+position = Vector2(199, 202)
+shape = SubResource("RectangleShape2D_uhyyb")
