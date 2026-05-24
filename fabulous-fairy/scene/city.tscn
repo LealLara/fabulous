@@ -9,8 +9,11 @@
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_4uvuk"]
 texture = ExtResource("2_qacxa")
 0:0/0 = 0
+0:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
 1:0/0 = 0
+1:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
 2:0/0 = 0
+2:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
 3:0/0 = 0
 4:0/0 = 0
 5:0/0 = 0
@@ -186,6 +189,7 @@ scale = Vector2(0.3648897, 0.21770832)
 texture = ExtResource("1_o83er")
 
 [node name="TileMapLayer" type="TileMapLayer" parent="background" unique_id=162502032]
+tile_map_data = PackedByteArray(0, 0, 0, 0, 12, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 12, 0, 0, 0, 1, 0, 0, 0, 0, 0, 2, 0, 12, 0, 0, 0, 2, 0, 0, 0, 0, 0)
 tile_set = SubResource("TileSet_ke18q")
 
 [node name="player" parent="." unique_id=1901282686 groups=["player"] instance=ExtResource("1_ke18q")]
