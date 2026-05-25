@@ -1,7 +1,6 @@
 [gd_scene format=3 uid="uid://dbbox8y16n5e3"]
 
 [ext_resource type="PackedScene" uid="uid://c5a3nie4uwq2i" path="res://entities/player.tscn" id="1_ke18q"]
-[ext_resource type="Texture2D" uid="uid://30778qrtjhn3" path="res://sprites/tilesets/piclumen-1779623059003.png" id="1_o83er"]
 [ext_resource type="Texture2D" uid="uid://cfx48nxj5r17n" path="res://sprites/tilesets/Grass.png" id="2_n34xo"]
 [ext_resource type="Texture2D" uid="uid://c74tyj36yrlr3" path="res://sprites/tilesets/Hills.png" id="2_qacxa"]
 [ext_resource type="PackedScene" uid="uid://dhrydm7vpp58a" path="res://entities/camera.tscn" id="9_2qhhf"]
@@ -186,7 +185,6 @@ sources/1 = SubResource("TileSetAtlasSource_i0bif")
 [node name="city" type="Sprite2D" parent="background" unique_id=347739211]
 position = Vector2(201.5, 100.499985)
 scale = Vector2(0.3648897, 0.21770832)
-texture = ExtResource("1_o83er")
 
 [node name="TileMapLayer" type="TileMapLayer" parent="background" unique_id=162502032]
 tile_map_data = PackedByteArray(0, 0, 0, 0, 12, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 12, 0, 0, 0, 1, 0, 0, 0, 0, 0, 2, 0, 12, 0, 0, 0, 2, 0, 0, 0, 0, 0)
